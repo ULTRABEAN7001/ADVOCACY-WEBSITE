@@ -249,3 +249,11 @@ header button{
 .sect5 h1{
     font-size: 50px;
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E63946;
+}
