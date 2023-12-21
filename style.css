@@ -161,6 +161,9 @@ header button{
     font-size: small;
 }
 
+.list.header{
+    font-size: 20px;
+}
 
 .sect2.box{
     width: 300px;
