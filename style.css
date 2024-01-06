@@ -94,7 +94,7 @@ header button {
   text-align: center;
   position: relative;
   top: 23px;
-  left: 15px;
+  left: 20px;
 }
 
 /* sidebar styles */
@@ -246,7 +246,7 @@ header button {
 }
 
 .sect4 h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: lighter;
   color: white;
   text-align: center;
@@ -265,7 +265,7 @@ header button {
 }
 
 .sect5 h1 {
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
 }
 
