@@ -1,262 +1,277 @@
 /* Edits for Header and Section 1 and 2 go here */
 
-body{
-    background-color: #F1FAEE;
-    margin: 0px;
-    font-family: 'DM Serif Display';
+body {
+  background-color: #f1faee;
+  margin: 0px;
+  font-family: "DM Serif Display";
 }
 
-header{
-    background-color: #E63946;
-    display: flex;
-    height: 75px;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 25px;
-    color: whitesmoke;
-
+header {
+  background-color: #e63946;
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 25px;
+  color: whitesmoke;
 }
 
-header h1{
-    margin: 0px;
+header h1 {
+  margin: 0px;
 }
 
-header span{
-    display: flex;
-    gap: 12px;
+header span {
+  display: flex;
+  gap: 12px;
 }
 
-header button{
-    background-color: #B82833;
-    border-style: none;
-    padding: 10px 24px;
-    font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: x-large;
-    border-radius: 14px;
+header button {
+  background-color: #b82833;
+  border-style: none;
+  padding: 10px 24px;
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 14px;
 }
 
 /* Section 1 styles */
 
-.sect1{
-    display: flex;
-    height: 400px;
-    margin: auto;
+.sect1 {
+  display: flex;
+  height: 400px;
+  margin: auto;
 }
 
-.text.image{
-    width: 700px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 0px;
-    margin-right: 0px;
-    position: relative;
-    left: 20px;
+.text.image {
+  width: 700px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  left: 20px;
 }
 
-.text.image h2{
-    margin-top: 15px;
-    margin-bottom: 0px;
-    background-color: #E63946;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width: 200px;
-    border-radius: 10px;
+.text.image h2 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  background-color: #e63946;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 200px;
+  border-radius: 10px;
 }
 
-.sect1.image{
-    height: 250px;
-    width: 250px;
-    border-style: solid;
-    border-width: 9px;
-    border-color: #E63946;
-    border-radius: 10px;
+.sect1.image {
+  height: 250px;
+  width: 300px;
+  border-style: solid;
+  border-width: 9px;
+  border-color: #e63946;
+  border-radius: 10px;
 }
 
-.sect1.paragraph{
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 70px;
-    color: #E63946;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    top: 23px;
+.sect1.image img {
+  height: 250px;
+  width: 300px;
+
+}
+
+.sect1.paragraph {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 70px;
+  color: #e63946;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 23px;
 }
 
 /* sidebar styles */
 
-.sidebar{
-    width: 500px;
-    background-color: #A8DADC;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: whitesmoke;
-    margin: 0px;
+.sidebar {
+  width: 500px;
+  background-color: #a8dadc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: whitesmoke;
+  margin: 0px;
 }
 
-.charity.buttons{
-    justify-content: center;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: whitesmoke;
-    margin: 0px;
+.charity.buttons {
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: whitesmoke;
+  margin: 0px;
 }
 
-.charity.button{
-    background-color: #0393B2;
-    border-style: none;
-    padding: 10px 24px;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+.charity.button {
+  background-color: #0393b2;
+  border-style: none;
+  padding: 10px 24px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.charity.button a{
-    text-decoration: none;
-    color: rgb(221, 221, 221);
-    font-weight: bold;
-    font-size: x-large;
+.charity.button a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+  font-size: x-large;
 }
 
 /* Section 2 styles */
 
-.sect2{
-    background-color: #E63946;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 120px;
+.sect2 {
+  background-color: #e63946;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
 }
 
-.sect2.text{
-    display: flex;
-    color: whitesmoke;
-    flex-direction: column;
-    gap: 10px;
+.sect2.text {
+  display: flex;
+  color: whitesmoke;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.sect2.text h2{
-    margin: 0px;
+.sect2.text h2 {
+  margin: 0px;
 }
 
-.sect2.text ul{
-    margin: 0px;
+.sect2.text ul {
+  margin: 0px;
 }
 
-.sect2.text li{
-    max-width: 450px;
-    font-size: small;
+.sect2.text li {
+  max-width: 450px;
+  font-size: small;
 }
 
-.list.header{
-    font-size: 20px;
+.list.header {
+  font-size: 20px;
 }
 
-.sect2.box{
-    width: 300px;
-    height: 300px;
-    border: solid; 
-    border-color: whitesmoke;
-    border-width: 9px;
-    position: relative;
-    right: 70px;
+.sect2.box {
+  width: 350px;
+  height: 300px;
+  border: solid;
+  border-color: whitesmoke;
+  border-width: 9px;
+  position: relative;
+  right: 70px;
+  align-items: center;
+}
+
+.sect2.box img{
+  width: 350px;
+  height: 300px;
 }
 
 /* Section 3 */
 
-.sect3{
-    height: 450px;
-    text-align: center;
-    color: #E63946;
+.sect3 {
+  height: 450px;
+  text-align: center;
+  color: #e63946;
 }
 
-.sect3 h2{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #E63946;;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.sect3 h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #e63946;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.sect3 img{
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: #003049;
-    border-width: 7px;
-    border-radius: 15px;
+.sect3 img {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: #003049;
+  border-width: 7px;
+  border-radius: 15px;
 }
 
-.charities{
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
+.charities {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
 }
 
-.charities button{
-    background-color: #00A9FF;
-    padding: 8px 30px;
-    color: aliceblue;
-    border-radius: 6px;
-    border-style: none;
-
+.charities button {
+  background-color: #00a9ff;
+  padding: 8px 30px;
+  color: aliceblue;
+  border-radius: 6px;
+  border-style: none;
 }
 
-.charsect{
-    display: flex;
-    justify-content: space-evenly;
+.charsect {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Section 4 */
 
-.sect4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    background-color: #E63946;
+.sect4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #e63946;
 }
 
-.sect4 h2{
-    font-size: 36px;
-    font-weight: lighter;
-    color: white;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+.sect4 h2 {
+  font-size: 36px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 444px;
 }
 
 /* Section 5 */
 
-.sect5{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sect5 {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sect5 h1{
-    font-size: 50px;
+.sect5 h1 {
+  font-size: 40px;
+  text-align: center;
 }
 
 /* Footer */
 
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: #E63946;
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e63946;
 }
